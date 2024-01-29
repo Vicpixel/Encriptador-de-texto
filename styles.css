@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000; 
+}
+
+.logo {
+    width:100%; 
+    height: auto;
+}
 .container {
     position: relative;
     width: 100vw;
@@ -83,6 +95,7 @@
     line-height: 19px;
     text-align: center;
     color: #ffffff;
+    margin-right: 24px;
 
 }
 
