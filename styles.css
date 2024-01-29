@@ -173,6 +173,12 @@
 
 }
 
+footer {
+    background-color: #0a3871;
+    color: #ffffff;
+    font-size: 19px;
+}
+
 /* Responsive design */
 @media (max-width: 57.5em) {
     .container{
