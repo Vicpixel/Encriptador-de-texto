@@ -19,7 +19,7 @@ function encriptar() {
         muneco.src = "./img/(1)Wall.E.png";
         tituloMensaje = "Ningun mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
-        alert("Debes ingresar algún texto");
+        swal("Oooopsss!", "Debes ingresar un texto", "warning");
     }
 }
 
